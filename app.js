@@ -56,12 +56,12 @@ function getTasks(){
 
 // Add task
 function addTask(e){
-  function keyPress(e){
-    if(e.keyCode === 32){
-      return false;
-    }
-  }
-  if(taskInput.value === '' || keyPress){
+  // function keyPress(e){
+  //   if(e.keyCode === 32){
+  //     return false;
+  //   }
+  // }
+  if(taskInput.value === '' ){
     alert('Add a task');
   }else{
     // we want to create a lst item when add tsk is clicked
